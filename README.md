@@ -31,11 +31,11 @@ Before starting, ensure you have **XAMPP** installed on your system. If you don'
 
 ### Step 2: Move the Project to XAMPP Local Server
 For XAMPP to execute PHP files, the project folder must reside in the local server directory:
-1. Copy your extracted project folder (make sure the folder is named `aerovibe_travels`).
+1. Copy your extracted project folder (make sure the folder is named `aerovibetravels`).
 2. Navigate to your XAMPP installation directory:
    * **Windows:** `C:\xampp\htdocs\`
    * **Mac:** `/Applications/XAMPP/xamppfiles/htdocs/`
-3. Paste the `aerovibe_travels` folder directly inside the `htdocs` directory.
+3. Paste the `aerovibetravels` folder directly inside the `htdocs` directory.
 
 ### Step 3: Start Apache and MySQL
 1. Open the **XAMPP Control Panel**.
@@ -46,10 +46,10 @@ For XAMPP to execute PHP files, the project folder must reside in the local serv
 To avoid standard database import errors, follow this exact sequence:
 1. Open your web browser and navigate to: `http://localhost/phpmyadmin/`
 2. In the left-hand sidebar, click on **New**.
-3. Under **Create database**, enter the exact database name: `aerovibe_travels` and click **Create**.
-4. **Crucial:** Click directly on the newly created `aerovibe_travels` database in the left sidebar to enter it. (The top bar should read `Server: localhost > Database: aerovibe_travels`).
+3. Under **Create database**, enter the exact database name: `aerovibetravels` and click **Create**.
+4. **Crucial:** Click directly on the newly created `aerovibetravels` database in the left sidebar to enter it. (The top bar should read `Server: localhost > Database: aerovibetravels`).
 5. Click the **Import** tab on the top menu bar.
-6. Click **Choose File** and locate the `aerovibe_travels.sql` file located inside your project folder.
+6. Click **Choose File** and locate the `aerovibetravels.sql` file located inside your project folder.
 7. Scroll to the bottom and click **Import**. You should see a green success message.
 
 ### Step 5: Configure the Codebase Connection
@@ -60,7 +60,7 @@ To avoid standard database import errors, follow this exact sequence:
    $host = "localhost";
    $user = "root";      // Default XAMPP username
    $password = "";      // Default XAMPP password is empty
-   $dbname = "aerovibe_travels";
+   $dbname = "aerovibetravels";
 
 ### Step 6: Run the Website
 Open your browser and navigate to the local server path:
