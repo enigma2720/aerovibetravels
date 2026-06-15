@@ -1,4 +1,3 @@
-# aerovibetravels
 # Aerovibe Travels 🌍✈️
 
 Aerovibe Travels is a dynamic, full-stack travel management and booking website built using PHP and MySQL. This platform allows users to explore flight packages, view exotic destinations, manage travel bookings, and seamlessly plan their next adventure through an intuitive user interface. 
